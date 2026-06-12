@@ -134,7 +134,7 @@ To add widgets: **Right click on desktop -> Add or Manage Widgets**
 
 Using the **Digital Clock** widget with a custom date format:
 
-- Date format:- `Custom` → `MMM d,ddd` (shows like `Jun 8, Mon`)
+- Date format:- `Custom` → `MMM d,ddd` (shows like `Jun 12, Fri`)
 - Text display:- `Manual` → Inter 8pt
 - Show date:- Always beside time
 
@@ -169,4 +169,4 @@ Right click on the **Application Launcher** in the taskbar -> **Configure** -> c
 
 - [Catppuccin KDE](https://github.com/catppuccin/kde)
 - [Tela Circle Icon Theme](https://github.com/vinceliuice/Tela-circle-icon-theme)
-- [CozyPixels Wallpapers Collection]([https://github.com/catppuccin/wallpapers](https://github.com/catppuccin/wallpapers](https://github.com/SleepyCatHey/CozyPixels)))
+- [CozyPixels Wallpapers Collection]([https://github.com/catppuccin/wallpapers](https://github.com/catppuccin/wallpapers](https://github.com/SleepyCatHey/CozyPixels))
