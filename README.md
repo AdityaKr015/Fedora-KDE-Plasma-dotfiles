@@ -29,7 +29,7 @@
 
 ---
 
-## 📁 What's in This Repo
+## What's in This Repo
 
 ```
 kde/
@@ -84,11 +84,13 @@ cd catppuccin-kde
 ./install.sh
 ```
 
-Follow the prompts — choose your flavour and accent colour. I use **Mocha + Lavender + Classic**.
+Follow the prompts:-
+
+Choose your flavour and accent colour. I use **Mocha + Lavender + Classic**.
 
 After installing:
-- Go to **System Settings → Global Theme** and select Catppuccin
-- Go to **Colors & Themes → Window Decorations** to customise further
+- Go to **System Settings -> Global Theme** and select Catppuccin
+- Go to **Colors & Themes -> Window Decorations** to customise further
 
 ---
 
@@ -104,7 +106,7 @@ cd Tela-circle-icon-theme
 ```
 
 After installing:
-- Go to **System Settings → Global Theme → Icons** and select your preferred Tela variant
+- Go to **System Settings -> Global Theme -> Icons** and select your preferred Tela variant
 
 ---
 
@@ -117,9 +119,9 @@ After installing:
 | **Clear Clock** | Clean clock widget on desktop |
 | **PlasMusic Toolbar** | Music player controls in taskbar (album art, seek bar, prev/next/pause) |
 
-To add widgets: **Right click on desktop → Add or Manage Widgets**
+To add widgets: **Right click on desktop -> Add or Manage Widgets**
 
-> For system tray: right click taskbar → configure, move items to popup as preferred.
+> For system tray: right click taskbar -> Configure, move items to popup as preferred.
 
 ---
 
@@ -150,7 +152,7 @@ Right click on the **Application Launcher** in the taskbar → **Configure** →
 
 ---
 
-## 📝 Notes
+## otes
 
 - Catppuccin and Tela are installed system-wide via their install scripts — those files are not included in this repo, just follow the setup steps above
 - If KDE looks off after copying configs, log out and log back in (or restart plasmashell: `plasmashell --replace &`)
@@ -158,7 +160,7 @@ Right click on the **Application Launcher** in the taskbar → **Configure** →
 
 ---
 
-## 🔗 Credits
+## Credits
 
 - [Catppuccin KDE](https://github.com/catppuccin/kde)
 - [Tela Circle Icon Theme](https://github.com/vinceliuice/Tela-circle-icon-theme)
