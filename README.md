@@ -169,4 +169,4 @@ Right click on the **Application Launcher** in the taskbar -> **Configure** -> c
 
 - [Catppuccin KDE](https://github.com/catppuccin/kde)
 - [Tela Circle Icon Theme](https://github.com/vinceliuice/Tela-circle-icon-theme)
-- [Catppuccin Wallpapers](https://github.com/catppuccin/wallpapers)
+- [CozyPixels Wallpapers Collection]([https://github.com/catppuccin/wallpapers](https://github.com/catppuccin/wallpapers](https://github.com/SleepyCatHey/CozyPixels)))
