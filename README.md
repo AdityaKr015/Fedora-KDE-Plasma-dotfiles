@@ -1,6 +1,6 @@
 # Fedora KDE Plasma Dotfiles
 
-> My personal KDE Plasma rice on Fedora — configs, themes, and setup guide.
+> My personal KDE Plasma rice on Fedora:- Configs, themes, and setup guide.
 
 ![KDE Plasma](https://img.shields.io/badge/KDE_Plasma-6.6.5-blue?style=for-the-badge&logo=kde&logoColor=white)
 ![Fedora](https://img.shields.io/badge/Fedora-44-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
@@ -88,7 +88,7 @@ Follow the prompts:-
 
 Choose your flavour and accent colour. I use **Mocha + Lavender + Classic**.
 
-After installing:
+After installing:-
 - Go to **System Settings -> Global Theme** and select Catppuccin
 - Go to **Colors & Themes -> Window Decorations** to customise further
 
@@ -121,42 +121,44 @@ After installing:
 
 To add widgets: **Right click on desktop -> Add or Manage Widgets**
 
+> I am just showing clock setting, for other widgets customize as per your preference.
+
 > For system tray: right click taskbar -> Configure, move items to popup as preferred.
 
 ---
 
-## 🕐 Clock Settings
+### Clock Settings
 
 Using the **Digital Clock** widget with a custom date format:
 
-- Date format: `Custom` → `MMM d,ddd` (shows like `Jun 8, Mon`)
-- Text display: `Manual` → Inter 8pt
-- Show date: Always beside time
+- Date format:- `Custom` → `MMM d,ddd` (shows like `Jun 8, Mon`)
+- Text display:- `Manual` → Inter 8pt
+- Show date:- Always beside time
 
 ![Clock Settings](Clock%20Settings/clock-setting.webp)
 
 ---
 
-## 🖼️ Wallpapers
+## Wallpapers
 
-Wallpapers are set as a **slideshow** — mix of downloaded ones and my own.
-Some wallpapers sourced from [this collection](https://github.com/catppuccin/wallpapers).
+Wallpapers are set as a **slideshow** mix of downloaded ones and my own.
+Some wallpapers sourced from [this collection]([https://github.com/catppuccin/wallpapers](https://github.com/SleepyCatHey/CozyPixels)).
 
-To set up slideshow: **Right click desktop → Configure Desktop and Wallpaper → Slideshow**
-
----
-
-## 🚀 App Launcher Icon
-
-Right click on the **Application Launcher** in the taskbar → **Configure** → change the icon to whatever you like.
+To set up slideshow:- **Right click on desktop -> Configure Desktop and Wallpaper -> Slideshow**
 
 ---
 
-## otes
+## App Launcher Icon
 
-- Catppuccin and Tela are installed system-wide via their install scripts — those files are not included in this repo, just follow the setup steps above
+Right click on the **Application Launcher** in the taskbar -> **Configure** -> customize as you like( eg. changing the icon etc).
+
+---
+
+## Notes
+
+- Catppuccin and Tela are installed system-wide via their install scripts, those files are not included in this repo, just follow the setup steps above
 - If KDE looks off after copying configs, log out and log back in (or restart plasmashell: `plasmashell --replace &`)
-- Single-channel RAM users: some blur/transparency effects may impact performance
+- Single-channel RAM users:- Some blur/transparency effects may impact performance
 
 ---
 
