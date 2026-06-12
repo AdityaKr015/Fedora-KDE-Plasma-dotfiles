@@ -144,7 +144,7 @@ Using the **Digital Clock** widget with a custom date format:
 
 ## Wallpapers
 
-Wallpapers are set as a **slideshow** mix of downloaded ones and my own.
+Wallpapers are set as a **slideshow** mix of downloaded ones and my own. (1st wallpaper is mine captured from [My Teen Romantic Comedy SNAFU Climax!](https://anilist.co/anime/108489/Yahari-Ore-no-Seishun-Love-Come-wa-Machigatteiru-Kan/)
 Some wallpapers sourced from [this collection]([https://github.com/catppuccin/wallpapers](https://github.com/SleepyCatHey/CozyPixels)).
 
 To set up slideshow:- **Right click on desktop -> Configure Desktop and Wallpaper -> Slideshow**
