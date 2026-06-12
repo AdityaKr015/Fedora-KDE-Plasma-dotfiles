@@ -131,7 +131,7 @@ Using the **Digital Clock** widget with a custom date format:
 - Text display: `Manual` → Inter 8pt
 - Show date: Always beside time
 
-![Clock Settings](./clock-setting.webp)
+![Clock Settings](Clock%20Settings/clock-setting.webp)
 
 ---
 
