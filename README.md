@@ -11,7 +11,10 @@
 
 ## Preview
 
-![Desktop Preview](./preview.png)
+![Desktop Preview](Desktop%20Previews/Desktop%20Preview.png)
+![KDE Control Station](Desktop%20Previews/KDE%20Control%20Station.png)
+![PlasMusic Toolbar](Desktop%20Previews/PlasMusic%20Toolbar.png)
+![fastfetch](Desktop%20Previews/fastfetch.png)
 
 ---
 
