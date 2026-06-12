@@ -1,4 +1,4 @@
-# 🌸 Fedora KDE Plasma Dotfiles
+# Fedora KDE Plasma Dotfiles
 
 > My personal KDE Plasma rice on Fedora — configs, themes, and setup guide.
 
@@ -9,14 +9,13 @@
 
 ---
 
-## 📸 Preview
+## Preview
 
-<!-- Add your desktop screenshot here -->
 ![Desktop Preview](./preview.png)
 
 ---
 
-## ⚙️ System Info
+## System Info
 
 | Component | Details |
 |-----------|---------|
@@ -53,7 +52,7 @@ kde/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone This Repo
 
@@ -73,7 +72,7 @@ cp -r kde/.local/share/konsole/* ~/.local/share/konsole/
 
 ---
 
-## 🎨 Theme Setup
+## Theme Setup
 
 ### Catppuccin KDE
 
@@ -109,13 +108,14 @@ After installing:
 
 ---
 
-## 🧩 Widgets
+## Widgets
 
 | Widget | Purpose |
 |--------|---------|
 | **KDE Control Station** | System tray popup (pre-installed, just add from widget menu) |
 | **Thermal Monitor** | CPU temperature on desktop |
 | **Clear Clock** | Clean clock widget on desktop |
+| **PlasMusic Toolbar** | Music player controls in taskbar (album art, seek bar, prev/next/pause) |
 
 To add widgets: **Right click on desktop → Add or Manage Widgets**
 
