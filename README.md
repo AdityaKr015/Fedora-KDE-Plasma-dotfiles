@@ -6,6 +6,7 @@
 ![Fedora](https://img.shields.io/badge/Fedora-44-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
 ![Theme](https://img.shields.io/badge/Theme-Catppuccin_Mocha_Lavender-CBA6F7?style=for-the-badge)
 ![Icons](https://img.shields.io/badge/Icons-Tela_Circle-89B4FA?style=for-the-badge)
+![SDDM](https://img.shields.io/badge/SDDM-black?style=for-the-badge&color=7aa2f7&labelColor=1a1b26&logo=linux&logoColor=white)
 
 ---
 
