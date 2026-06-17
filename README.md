@@ -2,7 +2,7 @@
 
 > My personal KDE Plasma rice on Fedora:- Configs, themes, and setup guide for public.
 
-![KDE Plasma](https://img.shields.io/badge/KDE_Plasma-6.6.5-blue?style=for-the-badge&logo=kde&logoColor=white)
+![KDE Plasma](https://img.shields.io/badge/KDE_Plasma-6.7-blue?style=for-the-badge&logo=kde&logoColor=white)
 ![Fedora](https://img.shields.io/badge/Fedora-44-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
 ![Theme](https://img.shields.io/badge/Theme-Catppuccin_Mocha-CBA6F7?style=for-the-badge)
 ![Icons](https://img.shields.io/badge/Icons-Tela_Circle-89B4FA?style=for-the-badge)
