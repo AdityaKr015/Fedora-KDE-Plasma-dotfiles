@@ -196,7 +196,7 @@ I have installed these theme from "Get New" option. Suggest doing the same or lo
       <sub>NieR: Automata theme</sub>
     </td>
     <td align="center">
-      <video src="SDDM/Pixel_Dusk_City.mp4">
+      <video src="SDDM/Pixel_Dusk_City.mp4" autoplay loop muted playsinline></video>
       <br>
       <sub>Pixel - Dusk City</sub>
     </td>
@@ -204,12 +204,12 @@ I have installed these theme from "Get New" option. Suggest doing the same or lo
 
   <tr>
     <td align="center">
-      <video src="SDDM/Pixel_Munchlax.mp4">
+      <video src="SDDM/Pixel_Munchlax.mp4" autoplay loop muted playsinline></video>
       <br>
       <sub>Pixel - Munchlax</sub>
     </td>
     <td align="center">
-        <video src="SDDM/Pixel_Night City.mp4">
+        <video src="SDDM/Pixel_Night City.mp4" autoplay loop muted playsinline></video>
         <br>
         <sub>Pixel - Night City</sub>
     </td>
