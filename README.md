@@ -190,26 +190,26 @@ I have installed these theme from "Get New" option. Suggest doing the same or lo
 
 <table border="0">
   <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/AdityaKr015/Fedora-KDE-Plasma-dotfiles/main/SDDM/NieR_Automata.jpg">
+    <td align="center" width="50%">
+      <img src="./SDDM/NieR_Automata.jpg" width="100%">
       <br>
       <sub>NieR: Automata theme</sub>
     </td>
-    <td align="center">
-      <video src="https://raw.githubusercontent.com/AdityaKr015/Fedora-KDE-Plasma-dotfiles/main/SDDM/Pixel_Dusk_City.mp4" autoplay loop muted playsinline></video>
+    <td align="center" width="50%">
+      <video src="./SDDM/Pixel_Dusk_City.mp4" autoplay loop muted playsinline width="100%"></video>
       <br>
       <sub>Pixel - Dusk City</sub>
     </td>
   </tr>
 
   <tr>
-    <td align="center">
-      <video src="https://raw.githubusercontent.com/AdityaKr015/Fedora-KDE-Plasma-dotfiles/main/SDDM/Pixel_Munchlax.mp4" autoplay loop muted playsinline></video>
+    <td align="center" width="50%">
+      <video src="./SDDM/Pixel_Munchlax.mp4" autoplay loop muted playsinline width="100%"></video>
       <br>
       <sub>Pixel - Munchlax</sub>
     </td>
-    <td align="center">
-        <video src="https://raw.githubusercontent.com/AdityaKr015/Fedora-KDE-Plasma-dotfiles/main/SDDM/Pixel_Night_City.mp4" autoplay loop muted playsinline></video>
+    <td align="center" ****>
+        <video src="./SDDM/Pixel_Night_City.mp4" autoplay loop muted playsinline width="100%"></video>
         <br>
         <sub>Pixel - Night City</sub>
     </td>
