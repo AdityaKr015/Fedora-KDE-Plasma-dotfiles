@@ -171,9 +171,9 @@ A login manager (the login screen after system boot). If you are using Fedora 44
 
 **Here's image of Default PLM with changed background:-**
 
-![1](PLM/1.jpg)
+![1](PLM/1.png)
 
-![2](PLM/2.jpg)
+![2](PLM/2.png)
 
 If want to use **SDDM** on **Fedora 44**, you just have install **SDDM** and run the daemon to replace **PLM**.
 - **To install SDDM**
