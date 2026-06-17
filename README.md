@@ -1,6 +1,6 @@
 # Fedora KDE Plasma Dotfiles
 
-> My personal KDE Plasma rice on Fedora:- Configs, themes, and setup guide.
+> My personal KDE Plasma rice on Fedora:- Configs, themes, and setup guide for public.
 
 ![KDE Plasma](https://img.shields.io/badge/KDE_Plasma-6.6.5-blue?style=for-the-badge&logo=kde&logoColor=white)
 ![Fedora](https://img.shields.io/badge/Fedora-44-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
@@ -168,6 +168,10 @@ Using the **Digital Clock** widget with a custom date format:
 
 A login manager (the login screen after system boot). If you are using Fedora 44 then Fedora has ditched SDDM now and using KDE plasma's Plasma Login Manager ( a fork of SDDM, as of now it is very simple and not many theme are available, it will take time to mature)
 
+![1](PLM/1.jpg)
+
+![2](PLM/2.jpg)
+
 If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon to replace PLM.
 - To install SDDM
   - `sudo dnf install sddm sddm-kcm sddm-wayland-plasma`
@@ -176,9 +180,11 @@ If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon 
 - Then reboot the device, on boot you will have SDDM, after login you have SDDM in the setting.
 - Go to System Setting -> Colors & Themes -> Login Screen (SDDM), you can install SDDM themes from 'Get New' option.
 
-![Login Screen (SDDM)]()
+![Login Screen (SDDM)](SDDM/SDDM.png)
 
-### Here's Mine
+### Here's Mine Collection
+
+
 
 
 
