@@ -252,7 +252,7 @@ I have installed these theme from **'Get New'** option. Suggest doing the same o
 - To set particular config, go to `/usr/share/sddm/themes/`, find **SilentSDDM** folder.
 - To change the active config, edit `./metadata.desktop` file and replace the value of `ConfigFile=configs/<your_preferred_config>.conf`
 
-  <img width="597" height="562" alt="image" src="https://github.com/user-attachments/assets/e5a7ea2a-5c33-41ee-aec6-fc7a4fe2ac41" />
+![Config](SDDM/config.png)
 
 ---
 
