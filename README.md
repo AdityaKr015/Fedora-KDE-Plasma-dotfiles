@@ -168,7 +168,7 @@ Using the **Digital Clock** widget with a custom date format:
 
 A login manager (the login screen after system boot). If you are using Fedora 44 then Fedora has ditched SDDM now and using KDE plasma's Plasma Login Manager ( a fork of SDDM, as of now it is very simple and not many theme are available, it will take time to mature)
 
-Here's image of Default PLM with changed background.
+**Here's image of Default PLM with changed background:-**
 
 ![1](PLM/1.jpg)
 
@@ -184,7 +184,7 @@ If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon 
 
 ![Login Screen (SDDM)](SDDM/SDDM.png)
 
-I have installed these theme from "Get New" option. Suggest doing the same or look for the credits.
+**I have installed these theme from "Get New" option. Suggest doing the same or look for the credits.**
 
 ### Here's Mine Collection
 
@@ -219,6 +219,9 @@ I have installed these theme from "Get New" option. Suggest doing the same or lo
       <img src="./SDDM/Reverse_1999_II.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
   </tr>
+
+  **Above SDDM theme can be install from this [repo](https://github.com/Darkkal44/qylock)**
+  
   <tr>
     <td align="center" width="50%" style="padding: 15px; border: none;">
       <b>Silent SDDM</b><br><br>
@@ -240,6 +243,13 @@ I have installed these theme from "Get New" option. Suggest doing the same or lo
     </td>
   </tr>
 </table>
+
+**Some variations of SilentSDDM, here is the [repo](https://github.com/uiriansan/SilentSDDM). I just reading the repo.**
+- To set particular config, go to /usr/share/sddm/themes/, find SilentSDDM.
+- To change the active config, edit ./metadata.desktop file and replace the value of ConfigFile=configs/<your_preferred_config>.conf
+
+  <img width="597" height="562" alt="image" src="https://github.com/user-attachments/assets/e5a7ea2a-5c33-41ee-aec6-fc7a4fe2ac41" />
+
 ---
 
 ## Wallpapers
@@ -269,3 +279,5 @@ Right click on the **Application Launcher** in the taskbar -> **Configure** -> c
 - [Catppuccin KDE](https://github.com/catppuccin/kde)
 - [Tela Circle Icon Theme](https://github.com/vinceliuice/Tela-circle-icon-theme)
 - [CozyPixels Wallpapers Collection](https://github.com/SleepyCatHey/CozyPixels)
+- [Darkkal44's SDDM](https://github.com/Darkkal44/qylock)
+- [uirriansan's SlientSDDM](https://github.com/uiriansan/SilentSDDM)
