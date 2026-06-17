@@ -220,9 +220,12 @@ If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon 
       <img src="./SDDM/Reverse_1999_II.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
   </tr>
+  </table>
 
   **Above SDDM theme can be install from this [repo](https://github.com/Darkkal44/qylock)**
-  
+
+
+  <table style="border-collapse: collapse; border: none;">
   <tr>
     <td align="center" width="50%" style="padding: 15px; border: none;">
       <b>Silent SDDM</b><br><br>
@@ -245,7 +248,7 @@ If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon 
   </tr>
 </table>
 
-**Some variations of SilentSDDM, here is the [repo](https://github.com/uiriansan/SilentSDDM). I just reading the repo.**
+**Some variations of SilentSDDM, here is the [repo](https://github.com/uiriansan/SilentSDDM). I suggest reading the repo.**
 - To set particular config, go to /usr/share/sddm/themes/, find SilentSDDM.
 - To change the active config, edit ./metadata.desktop file and replace the value of ConfigFile=configs/<your_preferred_config>.conf
 
