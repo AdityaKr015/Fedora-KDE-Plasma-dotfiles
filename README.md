@@ -192,7 +192,7 @@ I have installed these theme from "Get New" option. Suggest doing the same or lo
   <tr>
     <td align="center" width="50%" style="padding: 15px; border: none;">
       <b>NieR: Automata</b><br><br>
-      <img src="./SDDM/NieR_Automata.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+      <img src="SDDM/NieR_Automata.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
     <td align="center" width="50%" style="padding: 15px; border: none;">
       <b>Pixel · Dusk City</b><br><br>
