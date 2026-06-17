@@ -14,27 +14,27 @@
 <table border="0">
   <tr>
     <td align="center">
+      <b>Dektop Preview</b><br><br>
       <img src="Desktop%20Previews/Desktop%20Preview.png">
       <br>
-      <sub>Desktop Preview</sub>
     </td>
     <td align="center">
+      <b>KDE Control Station</b><br><br>
       <img src="Desktop%20Previews/KDE%20Control%20Station.png">
       <br>
-      <sub>KDE Control Station</sub>
     </td>
   </tr>
 
   <tr>
     <td align="center">
+      <b>PlasMusic Toolbar Widget</b><br><br>
       <img src="Desktop%20Previews/PlasMusic%20Toolbar.png">
       <br>
-      <sub>PlasMusic Toolbar Widget</sub>
     </td>
     <td align="center">
+      <b>fastfetch</b><br><br>
         <img src="Desktop%20Previews/fastfetch.png">
         <br>
-        <sub>fastfetch</sub>
     </td>
   </tr>
 </table>
