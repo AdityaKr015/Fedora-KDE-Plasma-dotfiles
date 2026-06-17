@@ -183,7 +183,7 @@ If want to use **SDDM** on **Fedora 44**, you just have install **SDDM** and run
 - Then reboot the device, on boot you will have SDDM, after login you have SDDM in the setting.
 - Go to **System Setting -> Colors & Themes -> Login Screen (SDDM)**, you can install SDDM themes from 3 dot **'Get New'** option.
 
-![Login Screen (SDDM)](SDDM/SDDM.png)
+![Login Screen (SDDM)](SDDM/Login%20Screen%20(SDDM).png)
 
 I have installed these theme from **'Get New'** option. Suggest doing the same or look for the credits.
 
