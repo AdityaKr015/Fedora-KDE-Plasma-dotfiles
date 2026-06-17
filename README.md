@@ -146,28 +146,28 @@ After installing:
 | **Clear Clock** | Clean clock widget on desktop |
 | **PlasMusic Toolbar** | Music player controls in taskbar (album art, seek bar, prev/next/pause) |
 
-To add widgets: **Right click on desktop -> Add or Manage Widgets**
+To add widgets:- **Right click on desktop -> Add or Manage Widgets**
 
 > I am just showing clock setting, for other widgets customize as per your preference.
 
-> For system tray: right click taskbar -> Configure, move items to popup as preferred.
+> For system tray:- **right click taskbar -> Configure**, move items to popup as preferred.
 
 ---
 
 ### Clock Settings
 
-Using the **Digital Clock** widget with a custom date format:
+Using the **Digital Clock** widget with a custom date format:-
 
-- Date format:- `Custom` → `MMM d,ddd` (shows like `Jun 12, Fri`)
-- Text display:- `Manual` → Inter 8pt
-- Show date:- Always beside time
+- **Date format:-** `Custom` → `MMM d,ddd` (shows like `Jun 12, Fri`)
+- **Text display:-** `Manual` → Inter 8pt
+- **Show date:-** Always beside time
 
 ![Clock Settings](Clock%20Settings/clock-setting.webp)
 
 ---
 ## SDDM(Simple Desktop Display Manager)
 
-A login manager (the login screen after system boot). If you are using Fedora 44 then Fedora has ditched SDDM now and using KDE plasma's Plasma Login Manager ( a fork of SDDM, as of now it is very simple and not many theme are available, it will take time to mature)
+A login manager (the login screen after system boot). If you are using Fedora 44 then Fedora has ditched **SDDM** and now using KDE plasma's **Plasma Login Manager(PLM)**,a fork of SDDM as of now it is very simple and not many theme are available, it will take time to mature.
 
 **Here's image of Default PLM with changed background:-**
 
@@ -175,17 +175,17 @@ A login manager (the login screen after system boot). If you are using Fedora 44
 
 ![2](PLM/2.jpg)
 
-If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon to replace PLM.
-- To install SDDM
+If want to use **SDDM** on **Fedora 44**, you just have install **SDDM** and run the daemon to replace **PLM**.
+- **To install SDDM**
   - `sudo dnf install sddm sddm-kcm sddm-wayland-plasma`
-- Enable SDDM daemon to start and replace PLM
+- **Enable SDDM daemon to start and replace PLM**
   - `systemctl enable --force sddm.service`
 - Then reboot the device, on boot you will have SDDM, after login you have SDDM in the setting.
-- Go to System Setting -> Colors & Themes -> Login Screen (SDDM), you can install SDDM themes from 'Get New' option.
+- Go to **System Setting -> Colors & Themes -> Login Screen (SDDM)**, you can install SDDM themes from **'Get New'** option.
 
 ![Login Screen (SDDM)](SDDM/SDDM.png)
 
-**I have installed these theme from "Get New" option. Suggest doing the same or look for the credits.**
+I have installed these theme from **'Get New'** option. Suggest doing the same or look for the credits.
 
 ### Here's Mine Collection
 
@@ -249,8 +249,8 @@ If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon 
 </table>
 
 **Some variations of SilentSDDM, here is the [repo](https://github.com/uiriansan/SilentSDDM). I suggest reading the repo.**
-- To set particular config, go to /usr/share/sddm/themes/, find SilentSDDM.
-- To change the active config, edit ./metadata.desktop file and replace the value of ConfigFile=configs/<your_preferred_config>.conf
+- To set particular config, go to `/usr/share/sddm/themes/`, find **SilentSDDM** folder.
+- To change the active config, edit `./metadata.desktop` file and replace the value of `ConfigFile=configs/<your_preferred_config>.conf`
 
   <img width="597" height="562" alt="image" src="https://github.com/user-attachments/assets/e5a7ea2a-5c33-41ee-aec6-fc7a4fe2ac41" />
 
