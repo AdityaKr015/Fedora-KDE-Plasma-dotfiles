@@ -11,10 +11,33 @@
 
 ## Preview
 
-![Desktop Preview](Desktop%20Previews/Desktop%20Preview.png)
-![KDE Control Station](Desktop%20Previews/KDE%20Control%20Station.png)
-![PlasMusic Toolbar](Desktop%20Previews/PlasMusic%20Toolbar.png)
-![fastfetch](Desktop%20Previews/fastfetch.png)
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="Desktop%20Previews/Desktop%20Preview.png">
+      <br>
+      <sub>Desktop Preview</sub>
+    </td>
+    <td align="center">
+      <img src="Desktop%20Previews/KDE%20Control%20Station.png">
+      <br>
+      <sub>KDE Control Station</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="Desktop%20Previews/PlasMusic%20Toolbar.png">
+      <br>
+      <sub>PlasMusic Toolbar Widget</sub>
+    </td>
+    <td align="center">
+        <img src="Desktop%20Previews/fastfetch.png">
+        <br>
+        <sub>fastfetch</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -141,6 +164,25 @@ Using the **Digital Clock** widget with a custom date format:
 ![Clock Settings](Clock%20Settings/clock-setting.webp)
 
 ---
+## SDDM(Simple Desktop Display Manager)
+
+A login manager (the login screen after system boot). If you are using Fedora 44 then Fedora has ditched SDDM now and using KDE plasma's Plasma Login Manager ( a fork of SDDM, as of now it is very simple and not many theme are available, it will take time to mature)
+
+If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon to replace PLM.
+- To install SDDM
+  - `sudo dnf install sddm sddm-kcm sddm-wayland-plasma`
+- Enable SDDM daemon to start and replace PLM
+  - `systemctl enable --force sddm.service`
+- Then reboot the device, on boot you will have SDDM, after login you have SDDM in the setting.
+- Go to System Setting -> Colors & Themes -> Login Screen (SDDM), you can install SDDM themes from 'Get New' option.
+
+![Login Screen (SDDM)]()
+
+### Here's Mine
+
+
+
+---
 
 ## Wallpapers
 
@@ -161,7 +203,6 @@ Right click on the **Application Launcher** in the taskbar -> **Configure** -> c
 
 - Catppuccin and Tela are installed system-wide via their install scripts, those files are not included in this repo, just follow the setup steps above
 - If KDE looks off after copying configs, log out and log back in (or restart plasmashell: `plasmashell --replace &`)
-- Single-channel RAM users:- Some blur/transparency effects may impact performance
 
 ---
 
