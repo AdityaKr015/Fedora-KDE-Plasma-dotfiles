@@ -188,39 +188,58 @@ I have installed these theme from "Get New" option. Suggest doing the same or lo
 
 ### Here's Mine Collection
 
-<table border="0">
+<table style="border-collapse: collapse; border: none;">
   <tr>
-    <td align="center" width="50%">
-      <img src="./SDDM/NieR_Automata.jpg" width="100%">
-      <br>
-      <sub>NieR: Automata theme</sub>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>NieR: Automata</b><br><br>
+      <img src="./SDDM/NieR_Automata.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
-    <td align="center" width="50%">
-      <video src="./SDDM/Pixel_Dusk_City.mp4" autoplay loop muted playsinline width="100%"></video>
-      <br>
-      <sub>Pixel - Dusk City</sub>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Pixel · Dusk City</b><br><br>
+      <img src="./SDDM/Pixel_Dusk_City.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
   </tr>
-
   <tr>
-    <td align="center" width="50%">
-      <video src="./SDDM/Pixel_Munchlax.mp4" autoplay loop muted playsinline width="100%"></video>
-      <br>
-      <sub>Pixel - Munchlax</sub>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Pixel · Munchlax</b><br><br>
+      <img src="./SDDM/Pixel_Munchlax.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
-    <td align="center" ****>
-        <video src="./SDDM/Pixel_Night_City.mp4" autoplay loop muted playsinline width="100%"></video>
-        <br>
-        <sub>Pixel - Night City</sub>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Pixel · Night City</b><br><br>
+      <img src="./SDDM/Pixel_Night_City.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Reverse: 1999 - I</b><br><br>
+      <img src="./SDDM/Reverse_1999_I.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+    </td>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Reverse: 1999 - II</b><br><br>
+      <img src="./SDDM/Reverse_1999_II.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Silent SDDM</b><br><br>
+      <img src="./SDDM/SilentSDDM.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+    </td>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Ken</b><br><br>
+      <img src="./SDDM/ken.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Rei</b><br><br>
+      <img src="./SDDM/rei.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+    </td>
+    <td align="center" width="50%" style="padding: 15px; border: none;">
+      <b>Silvia</b><br><br>
+      <img src="./SDDM/silvia.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
   </tr>
 </table>
-
-
-
-
-
-
 ---
 
 ## Wallpapers
