@@ -184,7 +184,38 @@ If want to use SDDM on Fedora 44, you just have install SDDM and run the daemon 
 
 ![Login Screen (SDDM)](SDDM/SDDM.png)
 
+I have installed these theme from "Get New" option. Suggest doing the same or look for the credits.
+
 ### Here's Mine Collection
+
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="SDDM/NieR_Automata.jpg">
+      <br>
+      <sub>NieR: Automata theme</sub>
+    </td>
+    <td align="center">
+      <video src="SDDM/Pixel_Dusk_City.mp4">
+      <br>
+      <sub>Pixel - Dusk City</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <video src="SDDM/Pixel_Munchlax.mp4">
+      <br>
+      <sub>Pixel - Munchlax</sub>
+    </td>
+    <td align="center">
+        <video src="SDDM/Pixel_Night City.mp4">
+        <br>
+        <sub>Pixel - Night City</sub>
+    </td>
+  </tr>
+</table>
+
 
 
 
