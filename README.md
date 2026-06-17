@@ -168,6 +168,8 @@ Using the **Digital Clock** widget with a custom date format:
 
 A login manager (the login screen after system boot). If you are using Fedora 44 then Fedora has ditched SDDM now and using KDE plasma's Plasma Login Manager ( a fork of SDDM, as of now it is very simple and not many theme are available, it will take time to mature)
 
+Here's image of Default PLM with changed background.
+
 ![1](PLM/1.jpg)
 
 ![2](PLM/2.jpg)
