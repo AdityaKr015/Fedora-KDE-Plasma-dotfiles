@@ -1,12 +1,31 @@
 # Fedora KDE Plasma Dotfiles
 
-> My personal KDE Plasma rice on Fedora:- Configs, themes, and setup guide for public.
+> My personal KDE Plasma rice on Fedora:- Configs, themes, and setup instructions.
 
 ![KDE Plasma](https://img.shields.io/badge/KDE_Plasma-6.7-blue?style=for-the-badge&logo=kde&logoColor=white)
 ![Fedora](https://img.shields.io/badge/Fedora-44-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
 ![Theme](https://img.shields.io/badge/Theme-Catppuccin_Mocha-CBA6F7?style=for-the-badge)
 ![Icons](https://img.shields.io/badge/Icons-Tela_Circle-89B4FA?style=for-the-badge)
 ![SDDM](https://img.shields.io/badge/SDDM-black?style=for-the-badge&color=7aa2f7&labelColor=1a1b26&logo=linux&logoColor=white)
+
+## Why I Made This
+
+I created this repository as a backup and sharing point for my Fedora KDE Plasma setup. It contains the configuration files, themes, widgets and instructions required to reproduce most of the look shown in the screenshots.
+
+---
+
+## Table of Contents
+- [Preview](#preview)
+- [System Info](#system-info)
+- [Installation](#installation)
+- [Theme Setup](#theme-setup)
+- [Widgets](#widgets)
+- [SDDM](#sddm-simple-desktop-display-manager)
+- [Fastfetch](#fastfetch-config)
+- [Fonts](#fonts)
+- [Wallpapers](#wallpapers)
+- [Credits](#credits)
+- [License](#license)
 
 ---
 
@@ -15,7 +34,7 @@
 <table border="0">
   <tr>
     <td align="center">
-      <b>Dektop Preview</b><br><br>
+      <b>Desktop Preview</b><br><br>
       <img src="Desktop%20Previews/Desktop%20Preview.png">
       <br>
     </td>
@@ -47,7 +66,7 @@
 | Component | Details |
 |-----------|---------|
 | **OS** | Fedora 44 |
-| **DE** | KDE Plasma 6.6.5 |
+| **DE** | KDE Plasma 6.7 |
 | **Theme** | Catppuccin Mocha Lavender Classic |
 | **Icons** | Tela Circle |
 | **Terminal** | Konsole |
@@ -59,6 +78,10 @@
 ## What's in This Repo
 
 ```
+Clock Settings/                                  # Clock Setting image
+Desktop Previews/                                # Desktop Previews images
+PLM/                                             # PLM images
+SDDM/                                            # SDDM images/gif
 kde/
 ├── .config/
 │   ├── kdeglobals                               # Colors, fonts
@@ -75,6 +98,8 @@ kde/
 └── .local/share/konsole/
     ├── aditya.profile                           # Konsole profile
     └── WhiteOnBlack.colorscheme                 # Konsole color scheme
+README.md                                        # Documentation
+
 ```
 
 ---
@@ -91,11 +116,16 @@ cd Fedora-KDE-Plasma-dotfiles
 ### 2. Copy Config Files
 
 ```bash
+# First make a backup
+mkdir -p ~/.config-backup
+cp ~/.config/kdeglobals ~/.config-backup/
+
+# Then copy the new configs
 cp -r kde/.config/* ~/.config/
 cp -r kde/.local/share/konsole/* ~/.local/share/konsole/
 ```
 
-> ⚠️ This will overwrite your existing KDE configs. Back up your current configs first if needed.
+> ⚠️ Always back up your current KDE configuration before copying these files.
 
 ---
 
@@ -165,21 +195,27 @@ Using the **Digital Clock** widget with a custom date format:-
 ![Clock Settings](Clock%20Settings/clock-setting.png)
 
 ---
-## SDDM(Simple Desktop Display Manager)
 
-A login manager (the login screen after system boot). If you are using Fedora 44 then Fedora has ditched **SDDM** and now using KDE plasma's **Plasma Login Manager(PLM)**,a fork of SDDM as of now it is very simple and not many theme are available, it will take time to mature.
+## SDDM (Simple Desktop Display Manager)
 
-**Here's image of Default PLM with changed background:-**
+A login manager (the login screen after system boot). If you are using Fedora 44 then Fedora has ditched **SDDM** and now using KDE plasma's **Plasma Login Manager(PLM)**, a fork of SDDM as of now it is very simple and not many themes are available, it will take time to mature.
+
+<details>
+<summary>Old PLM Setup</summary>
 
 ![1](PLM/1.png)
 
 ![2](PLM/2.png)
 
-If want to use **SDDM** on **Fedora 44**, you just have install **SDDM** and run the daemon to replace **PLM**.
+</details>
+
+**I switched to SDDM instead**
+
+If you want to use **SDDM** on **Fedora 44**, you just have install **SDDM** and run the daemon to replace **PLM**.
 - **To install SDDM**
   - `sudo dnf install sddm sddm-kcm sddm-wayland-plasma`
 - **Enable SDDM daemon to start and replace PLM**
-  - `systemctl enable --force sddm.service`
+  - `sudo systemctl enable sddm.service --force`
 - Then reboot the device, on boot you will have SDDM, after login you have SDDM in the setting.
 - Go to **System Setting -> Colors & Themes -> Login Screen (SDDM)**, you can install SDDM themes from 3 dot **'Get New'** option.
 
@@ -188,6 +224,8 @@ If want to use **SDDM** on **Fedora 44**, you just have install **SDDM** and run
 I have installed these theme from **'Get New'** option. Suggest doing the same or look for the credits.
 
 ### Here's Mine Collection
+
+> These SDDM theme setup are optional, not required.
 
 <table style="border-collapse: collapse; border: none;">
   <tr>
@@ -222,10 +260,14 @@ I have installed these theme from **'Get New'** option. Suggest doing the same o
   </tr>
   </table>
 
-  **Above SDDM theme can be install from this [repo](https://github.com/Darkkal44/qylock)**
+  **The above SDDM themes can be installed from this [repo](https://github.com/Darkkal44/qylock)**
 
+### Extra: SDDM Themes I Like to use
 
-  <table style="border-collapse: collapse; border: none;">
+<details>
+<summary>(click to expand)</summary>
+
+<table style="border-collapse: collapse; border: none;">
   <tr>
     <td align="center" width="50%" style="padding: 15px; border: none;">
       <b>Silent SDDM</b><br><br>
@@ -248,6 +290,9 @@ I have installed these theme from **'Get New'** option. Suggest doing the same o
   </tr>
 </table>
 
+</details>
+  
+
 **Some variations of SilentSDDM, here is the [repo](https://github.com/uiriansan/SilentSDDM). I suggest reading the repo.**
 - To set particular config, go to `/usr/share/sddm/themes/`, find **SilentSDDM** folder.
 - To change the active config, edit `./metadata.desktop` file and replace the value of `ConfigFile=configs/<your_preferred_config>.conf`
@@ -258,7 +303,7 @@ I have installed these theme from **'Get New'** option. Suggest doing the same o
 
 ## Wallpapers
 
-- Wallpapers are set as a **slideshow** mix of downloaded ones and my own. (1st wallpaper is mine captured from [My Teen Romantic Comedy SNAFU Climax!](https://anilist.co/anime/108489/Yahari-Ore-no-Seishun-Love-Come-wa-Machigatteiru-Kan/)
+- Wallpapers are set as a **slideshow** mix of downloaded ones and my own (1st wallpaper is mine, captured from [My Teen Romantic Comedy SNAFU Climax!](https://anilist.co/anime/108489/Yahari-Ore-no-Seishun-Love-Come-wa-Machigatteiru-Kan/)
 - Some wallpapers sourced from [this collection](https://github.com/SleepyCatHey/CozyPixels).
 
 To set up slideshow:- **Right click on desktop -> Configure Desktop and Wallpaper -> Slideshow**
@@ -268,6 +313,22 @@ To set up slideshow:- **Right click on desktop -> Configure Desktop and Wallpape
 ## App Launcher Icon
 
 Right click on the **Application Launcher** in the taskbar -> **Configure** -> customize as you like( eg. changing the icon etc).
+
+---
+
+## Fastfetch config
+
+I didn't include a Fastfetch configuration because I use the default configuration without modifications.
+
+If fastfetch missing then install using:- `sudo dnf install fastfetch`
+
+---
+
+## Fonts
+
+Font:- Inter 8pt
+
+You can install the font using this command:- `sudo dnf install google-inter-fonts`
 
 ---
 
@@ -284,4 +345,8 @@ Right click on the **Application Launcher** in the taskbar -> **Configure** -> c
 - [Tela Circle Icon Theme](https://github.com/vinceliuice/Tela-circle-icon-theme)
 - [CozyPixels Wallpapers Collection](https://github.com/SleepyCatHey/CozyPixels)
 - [Darkkal44's SDDM](https://github.com/Darkkal44/qylock)
-- [uirriansan's SlientSDDM](https://github.com/uiriansan/SilentSDDM)
+- [uiriansan's SilentSDDM](https://github.com/uiriansan/SilentSDDM)
+
+## LICENSE
+
+Licensed under the MIT License.
