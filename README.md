@@ -262,7 +262,7 @@ I have installed these theme from **'Get New'** option. Suggest doing the same o
 
   **The above SDDM themes can be installed from this [repo](https://github.com/Darkkal44/qylock)**
 
-### Extra: SDDM Themes I Like to use
+### Extra: SilentSDDM Themes Versions I use
 
 <details>
 <summary>(click to expand)</summary>
@@ -270,12 +270,12 @@ I have installed these theme from **'Get New'** option. Suggest doing the same o
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <td align="center" width="50%" style="padding: 15px; border: none;">
-      <b>Silent SDDM</b><br><br>
-      <img src="./SDDM/SilentSDDM.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+      <b>defaultSilentSDDM</b><br><br>
+      <img src="./SDDM/defaultSilentSDDM.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
     <td align="center" width="50%" style="padding: 15px; border: none;">
-      <b>Ken</b><br><br>
-      <img src="./SDDM/ken.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
+      <b>Ken Kaneki</b><br><br>
+      <img src="./SDDM/ken_kaneki.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
     </td>
   </tr>
   <tr>
